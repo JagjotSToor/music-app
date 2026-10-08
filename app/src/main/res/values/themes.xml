@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Auralis" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/auralis_bg</item>
+    </style>
+    <style name="Theme.Auralis.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/auralis_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Auralis</item>
+    </style>
+</resources>
